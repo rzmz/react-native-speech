@@ -4,8 +4,7 @@
  */
 'use strict';
 
-var NativeSpeechSynthesizer = require('NativeModules').SpeechSynthesizer;
-var invariant = require('invariant');
+var NativeSpeechSynthesizer = require('react-native').NativeModules.SpeechSynthesizer;
 
 /**
  * High-level docs for the SpeechSynthesizer iOS API can be written here.
